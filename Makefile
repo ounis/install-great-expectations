@@ -6,6 +6,6 @@ docker:
 clear:
 	docker ps -a | awk '{ print $$1,$$2 }' | grep install-great-expectations | awk '{print $$1 }' | xargs -I {} docker rm {}
 
-install-great-expectations:
+default:
 	make clear
 	time (make docker)
