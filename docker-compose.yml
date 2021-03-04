@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    install-great-expectations:
+        container_name: install-great-expectations
+        build:
+            context: .
+            dockerfile: Dockerfile
