@@ -7,6 +7,6 @@ name = "pypi"
 
 [packages]
 
-great-expectations = "*"
+numpy = "*"
 
 [dev-packages]
